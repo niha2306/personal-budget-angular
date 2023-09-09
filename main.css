@@ -40,11 +40,13 @@ nav.menu ul li a:hover  {
 section.hero {
     height: 350px;
     background-color: #b4c6f0;
-    background-image: url('./bg.png');
-    background-size: 400px;
-    background-repeat: no-repeat;
-    background-position: center bottom;
     padding-top: 40px;
+}
+
+section.hero > img {
+    width: 300px;
+    margin-left: 40%;
+    margin-right: auto;
 }
 
 section.hero h1,
