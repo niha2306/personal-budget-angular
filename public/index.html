@@ -101,16 +101,20 @@
                     because they know it is all good and accounted for.
                 </p>
             </div>
-    
-            <div class="text-box">
-                <h1>Chart</h1>
+
+        </div>
+        <div class="budgetChart">
+            <div>
+                <h1>BUDGET Chart(ChartJS)</h1>
                 <p>
                     <canvas id="myChart" width="400" height="400"></canvas>
                 </p>
             </div>
-
+    
+            <div id="d3Chart">
+                <h1>BUDGET CHART(D3JS)</h1>
+            </div>
         </div>
-
     </main>
 
     <!-- This is a Semantic HTML Change -->
@@ -135,6 +139,8 @@
         });
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.0/axios.min.js" integrity="sha512-aoTNnqZcT8B4AmeCFmiSnDlc4Nj/KPaZyB5G7JnOnUEkdNpCZs1LCankiYi01sLTyWy+m2P+W4XM+BuQ3Q4/Dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- CHARTJS -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
         var dataSource = {
@@ -176,5 +182,9 @@
         }
         getBudget();
     </script>
+
+    <!-- D3JS -->
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="./d3Chart.js"></script>
 </body>
 </html>

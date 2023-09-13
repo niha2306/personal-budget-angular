@@ -117,3 +117,24 @@ section.hero h2 {
         margin: 10px;
     }
 }
+
+.budgetChart {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+}
+svg {
+	width: 700px;
+    height: 450px;
+}
+
+path.slice{
+	stroke-width:2px;
+}
+
+polyline{
+	opacity: .3;
+	stroke: black;
+	stroke-width: 2px;
+	fill: none;
+}
