@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Chart } from 'chart.js/auto';
 import * as d3 from 'd3';
-import { BudgetdataService } from '../budgetdata.service';
+import { DataService } from '../data.service';
 @Component({
   selector: 'pb-homepage',
   templateUrl: './homepage.component.html',
@@ -42,7 +42,7 @@ export class HomepageComponent implements OnInit {
   }
   constructor(
     private http: HttpClient,
-    private budgetDataService: BudgetdataService
+    private budgetDataService: DataService
   ) {
 
   }

@@ -5,7 +5,7 @@ import {of} from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class BudgetdataService {
+export class DataService {
 
   private API_URL = 'http://localhost:3000/budget';
   private budgetData: any ;
